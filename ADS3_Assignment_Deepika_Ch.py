@@ -298,6 +298,6 @@ print(cluster_centers)
 # plot the results
 plot_clustered_data(df_normalized, cluster_labels, cluster_centers)
 
-predict_future(r"C:\Users\ACER\Downloads\climate_change_data.csv", ['India', 'China', 'United States'], ['Population, total'], 1990, 2020)
+predict_future(r"C:\Users\deepi\Downloads\New folder\climate_change_data.csv", ['India', 'China', 'United States'], ['Population, total'], 1990, 2020)
 map_corr(df, size=8)
 plot_normalized_data(df_normalized)
