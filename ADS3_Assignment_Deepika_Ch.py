@@ -278,7 +278,7 @@ def predict_future(population_data, countries, indicators, start_year, end_year)
 if __name__ == '__main__':
     # Read the data
     df_years, df_countries = data_read(
-        r"C:\Users\deepi\Downloads\New folder\climate_change_wbdata (1).csv")
+        r"C:\Users\deepi\Downloads\New folder\climate_change_data.csv")
 
     # subset the data for the indicators of interest and the selected countries
     indicators = ['Urban population', 'CO2 emissions (kt)']
